@@ -1,0 +1,136 @@
+body{
+    background-image: url('https://i0.wp.com/thefoodconnoisseur.co.uk/wp-content/uploads/2015/11/IMG_1605.jpg');
+     
+    background-repeat: no-repeat;
+    /* height: 860px; */
+        /* width: 100%; */
+        background-size: cover;
+        background-position: center;
+        background-color: rgb(0, 0, 0);
+    }
+    h1{
+        color: rgb(12, 11, 12);
+        text-align: center;
+        text-decoration: underline;
+        text-shadow:1px 2px 3px  rgb(45, 44, 44);
+        font-style: normal;
+    }
+    h3{
+        background-color: rgb(79, 76, 76);
+        color: rgb(10, 10, 9);
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .child{
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        width: 150px;
+        background-color: rgb(84, 78, 78);
+        margin: 20px;
+        padding: 20px;
+        border: 4px ridge rgb(79, 52, 71);
+        float: left;
+    }
+    img{
+        width: 100%;
+        border-radius:10%;
+       border:  4px ridge rgb(135, 52, 160) ;
+        height: 50%;
+       
+       
+    }
+    h2{
+        color: rgb(9, 9, 9);
+        text-align: center;
+        text-decoration: underline ;
+        text-shadow: 1px 2px 2px rgb(213, 29, 16)
+        font-style: normal;
+        font-weight: 400;
+    }
+    p{
+        text-align: justify;
+        color: rgb(12, 12, 12);
+    }
+    nav{
+        background-color: rgb(72, 66, 66);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        
+    }
+     
+    nav ul{
+        display: flex;
+     
+    }
+    nav ul li{
+        display: flex;
+        justify-content: space-evenly;
+    }
+     
+    nav ul li a{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px ;
+        position: sticky;
+        top: 0;
+        /* z-index: -1; */
+        /* opacity: 0.9; */
+     
+    }
+    .b{
+        text-align: center;
+        border: 2px;
+        border-style: dashed blue;
+        color: rgb(42, 165, 42);
+     
+    }
+    .b button{
+        color: rgb(137, 64, 121);
+        background-color: rgb(201, 188, 188);
+    }
+    .s{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+        font-weight: 400;
+    }
+    .s span a{
+        text-decoration: none;
+        color: crimson;
+        font-weight: 700;
+    }
+    .bs{
+     
+    text-align: center;
+        border: 2px;
+        border-style: dashed blue;
+        color: rgb(42, 165, 42);
+        font-weight: 600;
+       
+     
+    
+    }
+    .bs button{
+        color: rgb(236, 45, 195);
+        background-color: rgb(201, 188, 188);
+     
+    }
+    .a{
+        text-align: center;
+    }
+    .a a {
+        text-decoration: none;
+        color: crimson;
+        font-weight: 700;
+        font-style: oblique;
+       
+    }
+    .parent{
+        margin: 30px;
+    }
